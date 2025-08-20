@@ -2,7 +2,8 @@
   "name": "@zefirka/platform",
   "type": "module",
   "exports": {
-    ".": "./index.ts"
+    ".": "./index.ts",
+    "./vite": "./vite/index.ts"
   },
   "scripts": {
     "lint": "eslint . --fix",

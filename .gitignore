@@ -1,5 +1,5 @@
 # Вендорные файлы
-/node_modules
+node_modules
 
 # Сборка проекта
 dist

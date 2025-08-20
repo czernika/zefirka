@@ -19,7 +19,7 @@ export default tseslint.config(
             },
             sourceType: 'module',
             globals: {
-                ...globals.browser,
+                ...globals['shared-node-browser'],
             }
         },
     },
