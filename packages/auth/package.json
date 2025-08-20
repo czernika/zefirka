@@ -1,0 +1,20 @@
+{
+  "name": "@zefirka/auth",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.6",
+    "@nestjs/core": "^11.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "globals": "^16.3.0",
+    "typescript-eslint": "^8.40.0"
+  }
+}
