@@ -1,3 +1,6 @@
 bun run type-check
 
+bun run build
+git add .
+
 bunx lint-staged

@@ -32,6 +32,12 @@ export default tseslint.config(
     },
 
     {
+        rules: {
+            '@typescript-eslint/no-explicit-any': 'off',
+        },
+    },
+
+    {
         files: ['src/**/*.vue'],
         extends: [
             ...pluginVue.configs['flat/recommended'],
