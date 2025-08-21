@@ -1,4 +1,4 @@
-import { createZefirkaApp } from '@zefirka/platform'
+import { createZefirkaApp } from '@zefirkafree/platform'
 
 createZefirkaApp(({ app, router, routes, el }) => {
     app

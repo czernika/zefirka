@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "vue": "^3.5.18",
-    "@zefirka/iam": "workspace:*",
-    "@zefirka/platform": "workspace:*",
-    "@zefirka/server": "workspace:*"
+    "@zefirkafree/iam": "workspace:*",
+    "@zefirkafree/platform": "workspace:*",
+    "@zefirkafree/server": "workspace:*"
   },
   "devDependencies": {
     "@stylistic/eslint-plugin": "^5.2.3",

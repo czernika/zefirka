@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { zefirka } from '@zefirka/platform/vite'
+import { zefirka } from '@zefirkafree/platform/vite'
 
 export default defineConfig({
     plugins: [

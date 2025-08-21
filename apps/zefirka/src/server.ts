@@ -1,4 +1,4 @@
-import { ZefirkaNestServer, type ZefirkaNestServerOptions } from '@zefirka/server'
+import { ZefirkaNestServer, type ZefirkaNestServerOptions } from '@zefirkafree/server'
 
 // Запускаем бэкенд для управления пользователями админки
 const options: ZefirkaNestServerOptions = {
