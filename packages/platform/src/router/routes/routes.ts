@@ -1,6 +1,9 @@
-import { routes } from 'vue-router/auto-routes'
-import { adminRoutes } from './admin-routes'
+import type { RouteRecordRaw } from 'vue-router'
 
-routes.push(...adminRoutes)
-
-export { routes }
+export const adminRoutes: RouteRecordRaw[] = [
+    {
+        path: '/dashboard',
+        name: 'dashboard.index',
+        component: () => import('../../pages/dashboard.vue'),
+    },
+]

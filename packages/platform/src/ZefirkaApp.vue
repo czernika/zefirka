@@ -5,7 +5,7 @@ import DashboardLayout from './layouts/DashboardLayout.vue'
 /**
  * Сборка CSS
  */
-import './assets/css/output.css'
+import './assets/css/app.css'
 
 const layout = computed(() => {
     return DashboardLayout

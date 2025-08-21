@@ -7,7 +7,7 @@ import stylistic from '@stylistic/eslint-plugin'
 
 export default tseslint.config(
     {
-        ignores: ['node_modules/', 'dist/', 'generated/', '.turbo/'],
+        ignores: ['node_modules/**', 'dist/**', 'generated/**', '.turbo/'],
     },
 
     tseslint.configs.recommended,

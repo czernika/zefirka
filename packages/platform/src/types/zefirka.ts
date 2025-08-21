@@ -16,7 +16,7 @@ export type ZefirkaVueAppSetup = (ctx: {
     /**
      * Предустановленные маршруты приложения
      */
-    routes: RouteRecordRaw[]
+    adminRoutes: RouteRecordRaw[]
 
     /**
      * Элемент, куда будет монтировано приложение

@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import ZefirkaApp from './ZefirkaApp.vue'
-import { routes, router } from './router'
+import { adminRoutes, router } from './router'
 import type { ZefirkaVueAppSetup } from './types'
 
 /**
@@ -12,7 +12,7 @@ export const createZefirkaApp = (setup: ZefirkaVueAppSetup) => {
     setup({
         app,
         router,
-        routes,
+        adminRoutes,
         el: '#app',
     })
 }

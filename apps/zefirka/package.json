@@ -3,9 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"bun run dev:backend\" \"bun run dev:frontend\"",
-    "dev:backend": "bun --watch ./src/server.ts",
-    "dev:frontend": "vite",
+    "dev": "vite",
     "lint": "eslint . --fix"
   },
   "dependencies": {
