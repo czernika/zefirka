@@ -1,3 +1,0 @@
-<template>
-  Привет, Зефирка!
-</template>

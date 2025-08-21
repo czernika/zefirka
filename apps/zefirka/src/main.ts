@@ -1,7 +1,6 @@
-import { createApp } from "vue";
-import App from "./App.vue";
+import { createZefirkaApp } from '@zefirka/platform'
 
-// Создаем админку (собственно UX/UI)
-const app = createApp(App)
-
-app.mount('#app')
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+createZefirkaApp(({ app }) => {
+    //
+})

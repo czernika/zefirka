@@ -1,6 +1,6 @@
-import { NestFactory } from "@nestjs/core"
-import { AppModule } from "../src/app.module"
-import type { ZefirkaNestServerOptions } from "./types"
+import { NestFactory } from '@nestjs/core'
+import { AppModule } from '../src/app.module'
+import type { ZefirkaNestServerOptions } from './types'
 
 export class ZefirkaNestServer {
     static async bootstrap(options: ZefirkaNestServerOptions = {}) {
