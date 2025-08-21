@@ -1,7 +1,7 @@
 {
   "name": "@zefirkafree/platform",
   "private": false,
-  "version": "0.0.3-alpha.0",
+  "version": "0.0.4-alpha.0",
   "type": "module",
   "exports": {
     ".": "./index.ts",
