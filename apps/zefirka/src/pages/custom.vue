@@ -1,0 +1,3 @@
+<template>
+    Тестовая страница
+</template>

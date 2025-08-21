@@ -3,7 +3,8 @@
   "compilerOptions": {
     "noUncheckedIndexedAccess": true,
     "types": [
-      "vite/client"
+      "vite/client",
+      "unplugin-vue-router/client"
     ]
   }
 }

@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import ZefirkaApp from './ZefirkaApp.vue'
 import type { App } from 'vue'
+import { router } from './router'
 
 type ZefirkaVueAppSetup = (ctx: {
     /**
@@ -19,5 +20,7 @@ export const createZefirkaApp = (setup: ZefirkaVueAppSetup) => {
         app,
     })
 
-    app.mount('#app')
+    app
+        .use(router)
+        .mount('#app')
 }

@@ -3,6 +3,8 @@ import { zefirka } from '@zefirka/platform/vite'
 
 export default defineConfig({
     plugins: [
-        zefirka(),
+        zefirka({
+            // ...
+        }),
     ],
 })
