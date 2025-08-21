@@ -1,26 +1,18 @@
 import { createApp } from 'vue'
 import ZefirkaApp from './ZefirkaApp.vue'
-import type { App } from 'vue'
-import { router } from './router'
-
-type ZefirkaVueAppSetup = (ctx: {
-    /**
-     * Инициализированное приложение
-     */
-    app: App
-}) => void
-
-const app = createApp(ZefirkaApp)
+import { routes, router } from './router'
+import type { ZefirkaVueAppSetup } from './types'
 
 /**
  * Функция для инициализации приложения
  */
 export const createZefirkaApp = (setup: ZefirkaVueAppSetup) => {
+    const app = createApp(ZefirkaApp)
+
     setup({
         app,
+        router,
+        routes,
+        el: '#app',
     })
-
-    app
-        .use(router)
-        .mount('#app')
 }

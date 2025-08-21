@@ -1,3 +1,0 @@
-<template>
-    Тестовая страница
-</template>
