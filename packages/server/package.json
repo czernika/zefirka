@@ -1,6 +1,7 @@
 {
   "name": "@zefirka/server",
   "type": "module",
+  "version": "0.0.0",
   "exports": {
     ".": "./index.ts"
   },

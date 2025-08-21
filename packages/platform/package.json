@@ -1,6 +1,7 @@
 {
   "name": "@zefirka/platform",
   "type": "module",
+  "version": "0.0.0",
   "exports": {
     ".": "./index.ts",
     "./vite": "./vite/index.ts"

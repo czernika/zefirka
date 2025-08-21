@@ -9,6 +9,7 @@
     "prepare": "husky || true"
   },
   "devDependencies": {
+    "lerna": "^8.2.3",
     "turbo": "^2.5.6",
     "typescript": "5.9.2"
   },
