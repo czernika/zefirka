@@ -1,1 +1,1 @@
-export { default as Box } from './Box.vue'
+export { default as DashboardLayout } from './DashboardLayout.vue'

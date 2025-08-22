@@ -44,15 +44,9 @@ export default tseslint.config(
         ],
         rules: {
             'vue/html-indent': ['warn', 4],
-            'vue/multi-word-component-names': 'error',
-            'vue/max-attributes-per-line': ['warn', {
-                singleline: {
-                    max: 4,
-                },
-                multiline: {
-                    max: 1,
-                },
-            }],
+
+            // Вся сборка - это один-единственный элемент, который называется Box
+            'vue/multi-word-component-names': 'off',
         },
     },
 )

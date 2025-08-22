@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script lang="ts" setup generic="T extends DefineComponent">
 import type { DefineComponent } from 'vue'
 
 const { as = 'div' } = defineProps<{
@@ -6,7 +6,7 @@ const { as = 'div' } = defineProps<{
      * Элемент, который будет отрендерен
      * @default 'div'
      */
-    as?: string | DefineComponent<any, any, any>
+    as?: string | T
 }>()
 </script>
 
