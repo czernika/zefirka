@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@lerna-lite/cli": "^4.7.2",
+    "@lerna-lite/publish": "^4.7.2",
     "@stylistic/eslint-plugin": "^5.2.3",
     "eslint": "^9.33.0",
     "globals": "^16.3.0",
