@@ -1,0 +1,27 @@
+{
+  "name": "zefirka-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint . --fix",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@zefirkafree/dashboard": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@vue/tsconfig": "^0.8.1",
+    "eslint-plugin-vue": "^10.4.0",
+    "vite": "^7.1.3",
+    "vue-tsc": "^3.0.6"
+  }
+}

@@ -3,15 +3,11 @@ node_modules
 
 # Сборка проекта
 dist
-build
 generated
-bun.lock*
-package-lock.json
-yarn.lock
 
 # Окружение
 .env
-*.local
+*.local*
 
 # IDE
 .vscode/
