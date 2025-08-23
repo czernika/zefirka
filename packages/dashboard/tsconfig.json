@@ -2,8 +2,16 @@
   "extends": "@vue/tsconfig/tsconfig.dom.json",
   "compilerOptions": {
     "noUncheckedIndexedAccess": true,
+    // @see https://github.com/aleclarson/vite-tsconfig-paths?tab=readme-ov-file#%EF%B8%8F-non-typescript-modules-need-special-configuration
+    "allowJs": true,
     "types": [
       "vite/client"
-    ]
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
   }
 }

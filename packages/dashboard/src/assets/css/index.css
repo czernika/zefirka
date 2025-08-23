@@ -3,6 +3,7 @@
 
 @theme {
     --spacing-brand: calc(var(--spacing) * 8);
+    --spacing-header: calc(var(--spacing) * 17);
 }
 
 @utility container {

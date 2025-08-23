@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+import tsConfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
     build: {
@@ -48,6 +49,8 @@ export default defineConfig({
             directoryAsNamespace: true,
             dts: './src/types/generated/components.d.ts',
         }),
+
+        tsConfigPaths(),
 
         dts({
             copyDtsFiles: true,
