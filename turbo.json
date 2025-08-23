@@ -4,8 +4,7 @@
   "tasks": {
     "build": {
       "dependsOn": [
-        "^build",
-        "^type-check"
+        "^build"
       ],
       "inputs": [
         "$TURBO_DEFAULT$",
@@ -20,7 +19,7 @@
       "inputs": [
         "$TURBO_DEFAULT$",
         "eslint.config.mjs",
-        "package.json",
+        "package.json"
       ],
       "outputs": []
     },
@@ -31,7 +30,7 @@
       "inputs": [
         "$TURBO_DEFAULT$",
         "tsconfig.json",
-        "package.json",
+        "package.json"
       ],
       "outputs": []
     },
