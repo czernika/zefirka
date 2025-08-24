@@ -2,25 +2,19 @@
 import logo from '../assets/images/brand.svg?url'
 import { ZEFIRKA_OPTIONS_PROVIDER_KEY, type ZefirkaOptions } from '@/providers'
 
-const props = defineProps<{
+const { brand = logo } = defineProps<{
     /**
      * Логотип (путь до файла) бренда,
      * который будет отображаться в сайдбаре
      */
     brand?: string
-
-    /**
-     * Идет ли в данный момент загрузка контента или нет
-     */
-    loading?: boolean
 }>()
 
 /**
  * Основные опции приложения
  */
 provide<ZefirkaOptions>(ZEFIRKA_OPTIONS_PROVIDER_KEY, {
-    brand: props.brand || logo,
-    loading: computed(() => props.loading),
+    brand,
 })
 </script>
 
@@ -32,11 +26,7 @@ provide<ZefirkaOptions>(ZEFIRKA_OPTIONS_PROVIDER_KEY, {
 
         <Box class="flex-grow-1 py-4 pb-16 lg:pb-0">
             <SharedGridContainer>
-                <InternalDashboardHeader class="mb-8" />
-
-                <Box as="main">
-                    <slot />
-                </Box>
+                <slot />
             </SharedGridContainer>
         </Box>
     </Box>

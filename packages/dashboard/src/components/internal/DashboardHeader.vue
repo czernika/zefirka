@@ -1,8 +1,7 @@
 <script lang="ts" setup>
-import { useCollection, useZefirkaOptions } from '@/providers'
+import { useScreen } from '@/providers'
 
-const { loading } = useZefirkaOptions()
-const { title, description } = useCollection()
+const { title, description, loading } = useScreen()
 </script>
 
 <template>
