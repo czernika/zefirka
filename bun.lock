@@ -19,6 +19,7 @@
     "examples/zefirka": {
       "name": "zefirka-example",
       "dependencies": {
+        "@zefirkafree/box": "workspace:*",
         "@zefirkafree/dashboard": "workspace:*",
         "vue-router": "^4.5.1",
       },

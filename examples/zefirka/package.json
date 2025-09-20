@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@zefirkafree/dashboard": "workspace:*",
+    "@zefirkafree/box": "workspace:*",
     "vue-router": "^4.5.1"
   },
   "peerDependencies": {
