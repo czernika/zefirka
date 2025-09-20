@@ -31,14 +31,6 @@ onMounted(async () => {
             </template>
         </TableLayout>
 
-        <TableLayout :data="pokemons" :columns title="Вторая таблица с заголовком">
-            <template #default="{ row, column }">
-                <template v-if="column.key === 'url'">
-                    <a :href="row.url" target="_blank">
-                        {{ row.url }}
-                    </a>
-                </template>
-            </template>
-        </TableLayout>
+        <TableLayout :data="pokemons" :columns title="Вторая таблица с заголовком" />
     </Screen>
 </template>
